@@ -1,0 +1,83 @@
+[
+  {
+    "_id": { "$oid": "6701ab25d3f8b2e5a4a983c6" },
+    "nome": "Cesar Cielo",
+    "tipo": "nadador",
+    "equipe_id": { "$oid": "6701a9b4d3f8b2e5a4a983c2" },
+    "data_inscricao_cbda": { "$date": "2003-02-10T00:00:00.000Z" },
+    "sexo": "M",
+    "data_nascimento": { "$date": "1987-01-10T00:00:00.000Z" },
+    "email": "cielo@email.com",
+    "telefones": [{ "tipo": "celular", "numero": "21999998888" }],
+    "medalhas": { "ouro": 50, "prata": 15, "bronze": 10 },
+    "num_campeonatos_participados": 25
+  },
+  {
+    "_id": { "$oid": "6701ab25d3f8b2e5a4a983c7" },
+    "nome": "Bruno Fratus",
+    "tipo": "nadador",
+    "equipe_id": { "$oid": "6701a9b4d3f8b2e5a4a983c1" },
+    "data_inscricao_cbda": { "$date": "2005-05-20T00:00:00.000Z" },
+    "sexo": "M",
+    "data_nascimento": { "$date": "1989-06-02T00:00:00.000Z" },
+    "email": "fratus@email.com",
+    "telefones": [{ "tipo": "celular", "numero": "31988887777" }],
+    "medalhas": { "ouro": 20, "prata": 30, "bronze": 12 },
+    "num_campeonatos_participados": 22
+  },
+  {
+    "_id": { "$oid": "6701ab25d3f8b2e5a4a983c8" },
+    "nome": "Etiene Medeiros",
+    "tipo": "nadador",
+    "equipe_id": { "$oid": "6701d4a9e3b8c2f5a4a983d1" },
+    "data_inscricao_cbda": { "$date": "2008-01-15T00:00:00.000Z" },
+    "sexo": "F",
+    "data_nascimento": { "$date": "1991-05-24T00:00:00.000Z" },
+    "email": "etiene@email.com",
+    "telefones": [{ "tipo": "celular", "numero": "11977776666" }],
+    "medalhas": { "ouro": 40, "prata": 5, "bronze": 2 },
+    "num_campeonatos_participados": 18
+  },
+  {
+    "_id": { "$oid": "6701d67be3b8c2f5a4a983d5" },
+    "nome": "Guilherme Guido",
+    "tipo": "nadador",
+    "equipe_id": { "$oid": "6701d4a9e3b8c2f5a4a983d1" },
+    "data_inscricao_cbda": { "$date": "2004-03-12T00:00:00.000Z" },
+    "sexo": "M",
+    "data_nascimento": { "$date": "1987-02-12T00:00:00.000Z" },
+    "email": "guido@email.com",
+    "telefones": [{"tipo": "contato", "numero": "11966665555"}],
+    "medalhas": { "ouro": 35, "prata": 22, "bronze": 8 },
+    "num_campeonatos_participados": 24
+  },
+  {
+    "_id": { "$oid": "6701d67be3b8c2f5a4a983d6" },
+    "nome": "Fernando Scheffer",
+    "tipo": "nadador",
+    "equipe_id": { "$oid": "6701a9b4d3f8b2e5a4a983c1" },
+    "data_inscricao_cbda": { "$date": "2015-08-01T00:00:00.000Z" },
+    "sexo": "M",
+    "data_nascimento": { "$date": "1998-04-06T00:00:00.000Z" },
+    "email": "scheffer@email.com",
+    "telefones": [{"tipo": "residencial", "numero": "3133334444"}],
+    "medalhas": { "ouro": 15, "prata": 10, "bronze": 5 },
+    "num_campeonatos_participados": 10
+  },
+  {
+    "_id": { "$oid": "6701ab25d3f8b2e5a4a983c9" },
+    "nome": "Alberto Silva",
+    "tipo": "treinador",
+    "equipe_id": { "$oid": "6701a9b4d3f8b2e5a4a983c2" },
+    "formacao_academica": "Educação Física",
+    "num_titulos": 15
+  },
+  {
+    "_id": { "$oid": "6701d67be3b8c2f5a4a983d7" },
+    "nome": "Maria Lúcia",
+    "tipo": "treinador",
+    "equipe_id": { "$oid": "6701d4a9e3b8c2f5a4a983d1" },
+    "formacao_academica": "Mestrado em Fisiologia do Exercício",
+    "num_titulos": 10
+  }
+]

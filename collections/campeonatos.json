@@ -1,0 +1,76 @@
+[
+  {
+    "_id": { "$oid": "6701ac6ed3f8b2e5a4a983ca" },
+    "nome": "Troféu Brasil de Natação",
+    "edicoes": [
+      {
+        "ano": 2023,
+        "cidade_sede": "Rio de Janeiro",
+        "data_inicio": { "$date": "2023-12-01T00:00:00.000Z" },
+        "data_termino": { "$date": "2023-12-05T00:00:00.000Z" },
+        "provas_disputadas": [
+          {
+            "prova_id": { "$oid": "6701aa4ed3f8b2e5a4a983c3" },
+            "descricao": "50m Livre Masculino",
+            "recorde": {
+              "tempo": "00:20.91",
+              "data": { "$date": "2009-12-18T00:00:00.000Z" },
+              "nadador_id": { "$oid": "6701ab25d3f8b2e5a4a983c6" }
+            },
+            "baterias": [
+              {
+                "num_bateria": 1,
+                "tipo": "classificatória",
+                "data": { "$date": "2023-12-02T10:00:00.000Z" },
+                "resultados": [
+                  { "nadador_id": { "$oid": "6701ab25d3f8b2e5a4a983c6" }, "tempo": "00:21.80", "lugar_chegada": 1, "status": "classificado" },
+                  { "nadador_id": { "$oid": "6701ab25d3f8b2e5a4a983c7" }, "tempo": "00:22.10", "lugar_chegada": 2, "status": "classificado" },
+                  { "nadador_id": { "$oid": "6701d67be3b8c2f5a4a983d5" }, "tempo": "00:22.30", "lugar_chegada": 3, "status": "classificado" }
+                ]
+              },
+              {
+                "num_bateria": 2,
+                "tipo": "final",
+                "data": { "$date": "2023-12-02T18:00:00.000Z" },
+                "resultados": [
+                  { "nadador_id": { "$oid": "6701ab25d3f8b2e5a4a983c6" }, "tempo": "00:21.30", "lugar_chegada": 1, "status": "classificado" },
+                  { "nadador_id": { "$oid": "6701ab25d3f8b2e5a4a983c7" }, "tempo": "00:21.95", "lugar_chegada": 2, "status": "classificado" },
+                  { "nadador_id": { "$oid": "6701d67be3b8c2f5a4a983d5" }, "tempo": "00:22.05", "lugar_chegada": 3, "status": "desclassificado" }
+                ]
+              }
+            ]
+          },
+          {
+            "prova_id": { "$oid": "6701d5c3e3b8c2f5a4a983d3" },
+            "descricao": "100m Costas Feminino",
+            "baterias": [
+               {
+                "num_bateria": 1,
+                "tipo": "final",
+                "data": { "$date": "2023-12-03T18:30:00.000Z" },
+                "resultados": [
+                  { "nadador_id": { "$oid": "6701ab25d3f8b2e5a4a983c8" }, "tempo": "00:58.90", "lugar_chegada": 1, "status": "classificado" }
+                ]
+              }
+            ]
+          },
+          {
+            "prova_id": { "$oid": "6701d5c3e3b8c2f5a4a983d4" },
+            "descricao": "400m Medley Masculino",
+            "baterias": [
+               {
+                "num_bateria": 1,
+                "tipo": "final",
+                "data": { "$date": "2023-12-04T19:00:00.000Z" },
+                "resultados": [
+                  { "nadador_id": { "$oid": "6701d67be3b8c2f5a4a983d6" }, "tempo": "04:15.20", "lugar_chegada": 1, "status": "classificado" },
+                  { "nadador_id": { "$oid": "6701d67be3b8c2f5a4a983d5" }, "tempo": "04:18.50", "lugar_chegada": 2, "status": "classificado" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
